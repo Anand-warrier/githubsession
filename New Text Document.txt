@@ -1,1 +1,68 @@
-#include<stdio.h>
+C:\Users\anjan>git --version
+git version 2.40.1.windows.1
+
+C:\Users\anjan>https://github.com/Anand-warrier/githubsession.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anjan>git clone https://github.com/Anand-warrier/githubsession.git
+Cloning into 'githubsession'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\anjan>cd demo
+The system cannot find the path specified.
+
+C:\Users\anjan>cd demo/
+The system cannot find the path specified.
+
+C:\Users\anjan>cd gitsession
+The system cannot find the path specified.
+
+C:\Users\anjan>cd githubsession
+
+C:\Users\anjan\githubsession>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anjan\githubsession>list
+'list' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anjan\githubsession>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\anjan\githubsession>dir
+ Volume in drive C is Windows
+ Volume Serial Number is E025-6797
+
+ Directory of C:\Users\anjan\githubsession
+
+29-09-2023  15:17    <DIR>          .
+29-09-2023  15:01    <DIR>          ..
+29-09-2023  15:19                19 New Text Document.txt
+               1 File(s)             19 bytes
+               2 Dir(s)  177,088,917,504 bytes free
+
+C:\Users\anjan\githubsession>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\anjan\githubsession>git add .
+
+C:\Users\anjan\githubsession>git commit -m"item pushed"
+[main (root-commit) ccab29f] item pushed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+C:\Users\anjan\githubsession>git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 244 bytes | 244.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Anand-warrier/githubsession.git
+ * [new branch]      main -> main
+
+C:\Users\anjan\githubsession>#include<stdio.h>
